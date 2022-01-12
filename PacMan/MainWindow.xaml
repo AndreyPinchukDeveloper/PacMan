@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PacMan"
         mc:Ignorable="d"
-        Title="PAC Man Games !" Height="600" Width="800">
+        Title="Pac Man Games !" Height="600" Width="800">
     <Canvas Name="MyCanvas" KeyDown="CanvasKeyDown" Focusable="True" Background="Black">
         <Label FontSize="20" Name="txtScore" Foreground="white" Content="Score: 0"/>
         <Rectangle Name="pacman" Width="30" Height="30" Fill="Yellow" Canvas.Left="10" Canvas.Top="85"/>
-        <Rectangle Name="redGuy" Tag="ghost" Width="30" Height="30" Fill="Red" Canvas.Left="710" Canvas.Top="27"/>
-        <Rectangle Name="orangeGuy" Tag="ghost" Width="30" Height="30" Fill="Orange" Canvas.Left="73" Canvas.Top="114"/>
-        <Rectangle Name="pinkGuy" Tag="ghost" Width="30" Height="30" Fill="Pink" Canvas.Left="400" Canvas.Top="414"/>
+        <Rectangle Name="redGuy" Tag="ghost" Width="30" Height="30" Fill="Red" Canvas.Left="101" Canvas.Top="27"/>
+        <Rectangle Name="orangeGuy" Tag="ghost" Width="30" Height="30" Fill="Orange" Canvas.Left="695" Canvas.Top="114"/>
+        <Rectangle Name="pinkGuy" Tag="ghost" Width="30" Height="30" Fill="Pink" Canvas.Left="101" Canvas.Top="414"/>
 
         <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="600" Canvas.Left="115" Canvas.Top="75"/>
         <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="209" Width="20" Canvas.Left="115" Canvas.Top="163"/>
@@ -111,7 +111,5 @@
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="591" Canvas.Top="526" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="628" Canvas.Top="526" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="663" Canvas.Top="526" />
-
-
     </Canvas>
 </Window>
